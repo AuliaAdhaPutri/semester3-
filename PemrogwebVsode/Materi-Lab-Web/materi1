@@ -1,0 +1,85 @@
+<!DOCTYPE html> html untuk mendesikripsikan bahwa html yang digunakan itu versi 5
+<head></head> 
+<title> judul file
+<body> isi dari halaman web 
+<p> paragraf
+    <br> baris baru
+    <hr> garis lurus
+    <div> diluar paragraf atau layout
+
+tag "<.........>" halamannya
+
+
+</html>
+
+tag yang hanya memiliki pembuka saja 
+misal <hr> dan <br>
+
+tag bold untuk tulisan tebal
+<b></b>
+
+tag strong tidak terlalu tebal dari pada bold
+<strong> </strong>
+
+untuk tulisan miring <i> </i> sama seperti <em> </em>
+
+//del and ins 
+del untuk membuat teks yang dicoret <del> </del>
+ins teks yang digaris bawah <ins> </ins>
+
+//Hyperlink
+sebuah tag dimana tag browser link itu meloncat ke www. Hyperlink ini tag tautan seperti <a></a>harus ada judulna
+
+<a href=" pertemuan1.html(nama foldernya)"> Beralih ke pertemuan 2 </a>
+<a href="html www.google.com"> Google</a>
+<a href="../../subPertemuan1.htm"> </a> untu Beralih ke folder lain
+(Harus satu file)
+
+//membuat form
+form adalah tag yang isinya folmulir 
+kode <form> </form>
+
+tag <input type="text"> 
+tag <input type="radio" ada dua pilihan
+<input type=""
+
+tag <label> </label>
+radio button sebuah tampilan yang ada pilihannya
+
+submit button
+<input type="submit" value="Sumbit">
+value itu bisa diubah
+
+id="frame"
+
+membuat gambar audio dan dokumen lain 
+tag html <img> 
+
+src- menentukan jalur ke gambar file htm satu folder dengan img tulisan nama gambar atau link
+alt - menentukan teks altenatif 
+contoh :
+<img width="300px" height="300px" src= "link dari gambar (nama foto pada folder)"> 
+width untuk kasih ukuran
+alt="gambar tangan"> untuk tampilan teks untuk sebuah gambar
+
+<video src="video dari folder atau dari web.mp4" type="mp4" tambahkan ukuran controls> </video>
+format yang hanya bisa terbaca mp4,ogg,webm
+ogg cuman menampilkan suara 
+webm sama kayak mp4
+
+control untuk agar video fokus dan bisa dipause
+
+//Membuat tabel 
+tabel tag <tr> tabel baris</tr> 
+tag label <th> tabel header </th> 
+<td>tabel data</td> ( baris kolom) kayak satu baris tapi dalam tabel
+
+td dan th didalam tr 
+
+//border
+<table border ="1" cellspacing="5"
+bingkai <table 
+jarangl antar sel
+ruang didalam sel
+
+didalam tag bisa dikasih masuk style

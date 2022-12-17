@@ -1,0 +1,145 @@
+css adalah cassanding style sheet
+
+ada 3 
+inline embed
+internal
+dan external seperti hyperlink 
+tag link harus disimpan didalam tag head
+memparshing? 
+
+selector ada 4 macam
+menargetkan element html
+menargetkan class
+menargetkan id 
+menargetkan semua elemen di html 
+
+/* selector element html */
+h3 {}
+/*selector class */
+bisa mengubah beberapa style sekaligus
+
+cara gabungkan dengan css menggunakan 
+<link rel="stylesheet" type="text/css"href="style.css">
+
+dimulai dengan .judul{ jika kasih h1 maka dia hanya fokus ke h1
+
+/*selector id */
+#paragraf2{
+    background-color : blue {
+
+}
+/* universal */
+pake *{
+
+}   
+
+<ul> 
+    <li>satu </li> ini untuk list
+    
+</ul>
+
+untuk css nya
+ul li{
+    color: yellow;
+}*/
+
+tag yang memiliki kelas nilainnya itu 10
+id itu 100
+p nilainnya 1
+
+misal 
+<p id ="satu"></p>
+dalam css 
+pake p#satu{
+
+id lebih di prioritaskan
+
+    color : red;
+}
+p.dua{ jika ada dua kelas maka dua.dua
+    color : blue;
+}
+p{
+    color : green;
+}
+bikin class ada dua 
+" dua teks" ada dua kelas
+jika di css maka kasih dua.teks
+
+styling pada css 
+margin itu paling luar
+border 
+padding
+    <hi>teksnya</hi>
+
+<div> itu kotak 
+    <p>
+
+    </p>
+</div>
+
+untuk css nya itu
+div {
+    atribut
+    width itu besarnya
+}
+p{
+    border: "1px" solid black;
+    margin: 20px;
+    padding: 10px;
+}
+border bingkai
+margin kotak di luar border
+padding sebuah kotak diluar margin
+
+untuk liat teksnya itu klik kanan trus inspek
+
+DOM (document objeck model)
+
+1em = 1px
+
+<style> itu untuk font
+
+layout 
+
+Display
+DIV dan SPAN tidak memiliki nilai dia hanya sebagai wadah dalam tag
+#Display terbagi jadi 3 yaitu
+1. Display inline ini memiliki nilai default dan tidak bisa mengatur ukuran misal width untuk lebar dan height  untuk tinggi karena inline memiliki 
+   nilai default, dia mengubah list perkolom menjadi satu baris
+2. Display inline-Blok
+    bedanya ini kita  bisa ubah ukuranna
+3. Display Blok 
+    kalau blok dia akan membuat baris baru secara default, ukuranna jga bisa diubah
+    contoh : heading,p,ul,li,form,div,dan hr
+
+
+float
+
+float itu untuk mengatur dia ke kanan dan kekiri dan none
+jika menggunakan float kita harus memakai class clear
+
+bisa juga menggunakan micro clearfix
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+external kita buat sendiri
+pake link css <link href>
+
+.container dia langsung maju kayak default 
+jADI BOOSTRAP ITU SETIAP KELASNYA SUDAH MEMILIKI nilai default
+
